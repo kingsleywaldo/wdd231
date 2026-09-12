@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Riverside Business Solutions",
+    "address": "12 Aba Road, Port Harcourt, Rivers State",
+    "phone": "+234 803 111 2233",
+    "website": "https://example.com",
+    "image": "riverside-business.jpg",
+    "membership": 3,
+    "description": "Business consulting and professional services for growing organizations."
+  },
+  {
+    "name": "Garden City Hotel",
+    "address": "25 Stadium Road, Port Harcourt, Rivers State",
+    "phone": "+234 806 222 3344",
+    "website": "https://example.com",
+    "image": "garden-city-hotel.jpg",
+    "membership": 2,
+    "description": "Hospitality, accommodation, conference and event services."
+  },
+  {
+    "name": "Niger Delta Logistics",
+    "address": "18 Trans-Amadi Industrial Layout, Port Harcourt, Rivers State",
+    "phone": "+234 805 333 4455",
+    "website": "https://example.com",
+    "image": "niger-delta-logistics.jpg",
+    "membership": 3,
+    "description": "Logistics, transportation and delivery solutions for businesses."
+  },
+  {
+    "name": "Goodies Bake Concepts",
+    "address": "7 Igwurita Road, Port Harcourt, Rivers State",
+    "phone": "+234 809 444 5566",
+    "website": "https://example.com",
+    "image": "goodies-bake-concepts.jpg",
+    "membership": 2,
+    "description": "Fresh cakes, bread, pastries and baked treats for individuals and events."
+  },
+  {
+    "name": "Rivers Technology Hub",
+    "address": "32 Olu-Obasanjo Road, Port Harcourt, Rivers State",
+    "phone": "+234 807 555 6677",
+    "website": "https://example.com",
+    "image": "rivers-technology-hub.jpg",
+    "membership": 3,
+    "description": "Technology training, digital services and business technology solutions."
+  },
+  {
+    "name": "Creekside Printing Services",
+    "address": "10 Ikwerre Road, Port Harcourt, Rivers State",
+    "phone": "+234 810 666 7788",
+    "website": "https://example.com",
+    "image": "creekside-printing.jpg",
+    "membership": 1,
+    "description": "Professional printing, branding and promotional materials."
+  },
+  {
+    "name": "Eastern Energy Services",
+    "address": "41 Peter Odili Road, Port Harcourt, Rivers State",
+    "phone": "+234 812 777 8899",
+    "website": "https://example.com",
+    "image": "eastern-energy.jpg",
+    "membership": 2,
+    "description": "Energy support, equipment and industrial services for local businesses."
+  },
+  {
+    "name": "CityLink Media Agency",
+    "address": "16 Aba Road, Port Harcourt, Rivers State",
+    "phone": "+234 813 888 9900",
+    "website": "https://example.com",
+    "image": "citylink-media.jpg",
+    "membership": 1,
+    "description": "Digital marketing, social media management and creative media services."
+  }
+]

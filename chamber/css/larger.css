@@ -1,0 +1,50 @@
+/* ==============================
+   PORT HARCOURT BUSINESS CHAMBER
+   Larger Screen Styles
+   ============================== */
+
+@media only screen and (min-width: 38rem) {
+
+    .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 0;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    #navigation {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+
+    #navigation a {
+        border: none;
+        padding: 0.6rem 0.9rem;
+        border-radius: 4px;
+    }
+
+    .member-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-content {
+        grid-template-columns: 2fr 1fr 2fr;
+        align-items: start;
+    }
+}
+
+@media only screen and (min-width: 64rem) {
+
+    .member-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .page-heading h2 {
+        font-size: 2.5rem;
+    }
+}
