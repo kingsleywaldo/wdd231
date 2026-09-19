@@ -1,78 +1,55 @@
-/* =========================
-   LARGE SCREEN CSS
-   ========================= */
+/* ==============================
+   HOME PAGE - LARGER SCREENS
+   ============================== */
 
-@media screen and (min-width: 700px) {
+@media only screen and (min-width: 38rem) {
 
-    .header-content {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 1rem 2rem;
+    .hero img {
+        height: 450px;
     }
 
-    #menu-button {
-        display: none;
+    .hero-content {
+        left: 8%;
+        right: auto;
+        bottom: 3rem;
+        max-width: 550px;
     }
 
-    nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background-color: #0b263f;
+    .hero-content h2 {
+        font-size: 2.2rem;
     }
 
-    nav a {
-        min-width: 140px;
-        border-top: none;
-        border-left: 1px solid rgba(255, 255, 255, 0.1);
-        border-right: 1px solid rgba(255, 255, 255, 0.1);
+    .events-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    main {
-        padding: 2rem;
+    .spotlight-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    .home-grid {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        gap: 1.25rem;
-        align-items: stretch;
-    }
-
-    .home-grid section {
-        margin-bottom: 0;
-    }
-
-    .course-buttons {
-        flex-direction: row;
-        justify-content: center;
-        gap: 1rem;
-    }
-
-    .course-filter {
-        min-width: 150px;
-    }
-
-    .course-container {
+    .forecast-container {
         grid-template-columns: repeat(3, 1fr);
-    }
-
-    footer {
-        padding: 2rem;
     }
 }
 
-@media screen and (min-width: 1000px) {
 
-    .course-container {
-        grid-template-columns: repeat(3, 1fr);
+@media only screen and (min-width: 64rem) {
+
+    .hero img {
+        height: 500px;
     }
 
-    .course-card {
-        min-height: 180px;
+    .hero-content {
+        left: 10%;
+        bottom: 4rem;
+        max-width: 600px;
+    }
+
+    .hero-content h2 {
+        font-size: 2.7rem;
+    }
+
+    .spotlight-container {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
