@@ -1,55 +1,76 @@
-/* ==============================
-   HOME PAGE - LARGER SCREENS
-   ============================== */
 
-@media only screen and (min-width: 38rem) {
+/* Larger screen styling */
+@media screen and (min-width: 700px) {
 
-    .hero img {
-        height: 450px;
+    .header-content {
+        max-width: 1100px;
+        margin: 0 auto;
     }
 
-    .hero-content {
-        left: 8%;
-        right: auto;
-        bottom: 3rem;
-        max-width: 550px;
+    #menu-button {
+        display: none;
     }
 
-    .hero-content h2 {
-        font-size: 2.2rem;
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #0b2c4c;
     }
 
-    .events-container {
-        grid-template-columns: repeat(2, 1fr);
+    nav a {
+        padding: 14px 30px;
+        border: none;
     }
 
-    .spotlight-container {
-        grid-template-columns: repeat(2, 1fr);
+    main {
+        padding: 30px 25px;
     }
 
-    .forecast-container {
+    h1 {
+        text-align: left;
+        font-size: 2rem;
+    }
+
+    .home-grid {
+        grid-template-columns: 2fr 1fr;
+        align-items: stretch;
+    }
+
+    .section-content {
+        padding: 25px;
+    }
+
+    .photo-placeholder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: calc(100% - 48px);
+    }
+
+    .photo-placeholder img {
+        max-width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+    }
+
+    .course-buttons {
         grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .course-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
+@media screen and (min-width: 1000px) {
 
-@media only screen and (min-width: 64rem) {
-
-    .hero img {
-        height: 500px;
-    }
-
-    .hero-content {
-        left: 10%;
-        bottom: 4rem;
-        max-width: 600px;
-    }
-
-    .hero-content h2 {
-        font-size: 2.7rem;
-    }
-
-    .spotlight-container {
+    .course-container {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .home-grid {
+        grid-template-columns: 2fr 1fr;
     }
 }
