@@ -5,21 +5,21 @@ const courses = [
         number: 110,
         title: "Introduction to Programming",
         credits: 2,
-        completed: false
+        completed: True
     },
     {
         subject: "WDD",
         number: 130,
         title: "Web Fundamentals",
         credits: 2,
-        completed: false
+        completed: True
     },
     {
         subject: "CSE",
         number: 111,
         title: "Programming with Functions",
         credits: 2,
-        completed: false
+        completed: True
     },
     {
         subject: "CSE",
@@ -33,7 +33,7 @@ const courses = [
         number: 131,
         title: "Dynamic Web Fundamentals",
         credits: 2,
-        completed: false
+        completed: True
     },
     {
         subject: "WDD",
